@@ -399,7 +399,6 @@ export default function Courses() {
       <SEO
         title="IT & Digital Marketing Courses"
         description="Learn in-demand IT skills online with Selections Technologies. Courses in Shopify, WordPress, Web Development with AI, Digital Marketing, SEO, Graphic Design, Meta & Google Ads. Worldwide enrollment. Affordable prices."
-        keywords="online IT courses UK, web development course, Shopify course, WordPress course, digital marketing course, SEO course, graphic designing course, Meta ads course, Google ads course, full stack development course, social media marketing course, ecommerce course, AI development course, online learning UK, IT training worldwide"
         canonical="/courses"
       />
 

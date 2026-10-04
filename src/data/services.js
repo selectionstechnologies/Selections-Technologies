@@ -34,7 +34,6 @@ export const services = [
     metaTitle: 'Web Development Company UK | Custom Websites & Web Apps',
     metaDescription:
       'Custom web development in the UK by Selections Technologies. Fast, responsive, SEO-ready websites and web apps built with React and Next.js. Get a free quote.',
-    keywords: 'web development company UK, website developer Croydon, custom website design, React developer UK, Next.js development, web app development',
     tagline: 'Fast, secure and search-friendly websites that turn visitors into customers.',
     intro: [
       'Your website is often the first impression a customer has of your business. We design and build custom websites that load quickly, look great on every screen and are structured to rank on Google from day one.',
@@ -77,7 +76,6 @@ export const services = [
     metaTitle: 'WordPress Development UK | Custom WordPress Websites',
     metaDescription:
       'Professional WordPress development in the UK — custom themes, Elementor builds, WooCommerce stores, speed optimisation and ongoing maintenance.',
-    keywords: 'WordPress developer UK, WordPress website design, Elementor developer, WooCommerce developer, custom WordPress theme, WordPress maintenance UK',
     tagline: 'Beautiful WordPress websites you can easily manage yourself.',
     intro: [
       'WordPress powers a huge share of the web because it is flexible and easy to update. We build professional WordPress websites that combine a polished design with a simple editing experience, so your team can publish content without calling a developer.',
@@ -120,7 +118,6 @@ export const services = [
     metaTitle: 'Shopify Developer UK | Shopify Store Design & Setup',
     metaDescription:
       'Shopify store development in the UK. Store setup, theme customisation, payment gateways, apps and conversion optimisation by Selections Technologies.',
-    keywords: 'Shopify developer UK, Shopify store setup, Shopify theme customisation, Shopify expert London, dropshipping store, Shopify SEO',
     tagline: 'Conversion-focused Shopify stores that are ready to sell from day one.',
     intro: [
       'Shopify is one of the fastest ways to start selling online, but a store only succeeds when it is designed to convert. We build Shopify stores that look premium, load fast and guide shoppers smoothly from product page to checkout.',
@@ -163,7 +160,6 @@ export const services = [
     metaTitle: 'E-Commerce Website Development UK | Online Store Solutions',
     metaDescription:
       'End-to-end e-commerce development in the UK — WooCommerce, Shopify and custom online stores with secure payments, inventory and conversion optimisation.',
-    keywords: 'ecommerce website development UK, online store development, WooCommerce development, custom ecommerce, payment gateway integration, ecommerce agency Croydon',
     tagline: 'Online stores built to sell — from product catalogue to checkout and delivery.',
     intro: [
       'Selling online involves much more than a product page. We build complete e-commerce solutions covering product management, secure payments, shipping, inventory and the marketing tools you need to grow.',
@@ -206,7 +202,6 @@ export const services = [
     metaTitle: 'Custom Software Development UK | Bespoke Business Software',
     metaDescription:
       'Bespoke software development in the UK — business automation, SaaS platforms, APIs and cloud solutions engineered around your workflow.',
-    keywords: 'custom software development UK, bespoke software, business automation software, SaaS development, API development, cloud solutions UK',
     tagline: 'Software built around the way your business actually works.',
     intro: [
       'Off-the-shelf tools rarely fit every business process. We design and build bespoke software that automates repetitive work, connects your systems and gives your team the exact tools they need.',
@@ -249,7 +244,6 @@ export const services = [
     metaTitle: 'Custom CRM Development UK | Sales & Customer Management',
     metaDescription:
       'Custom CRM development in the UK — lead management, sales pipelines, automation and reporting built around your team by Selections Technologies.',
-    keywords: 'custom CRM development UK, CRM software, sales pipeline software, lead management system, CRM integration, bespoke CRM',
     tagline: 'One place to manage every lead, customer and deal.',
     intro: [
       'Generic CRMs often force your team to work around the software. We build custom CRM systems designed around your sales process, so leads are captured, followed up and converted without anything slipping through the cracks.',
@@ -292,7 +286,6 @@ export const services = [
     metaTitle: 'Mobile App Development UK | iOS & Android Apps',
     metaDescription:
       'iOS and Android app development in the UK with React Native. Cross-platform apps, push notifications and App Store launch by Selections Technologies.',
-    keywords: 'mobile app development UK, iOS app developer, Android app development, React Native developer, cross-platform app, app development company London',
     tagline: 'Cross-platform iOS and Android apps your customers will love to use.',
     intro: [
       'A well-built mobile app keeps your brand in your customers’ pockets. We design and develop intuitive iOS and Android apps using React Native, so you get one high-performance codebase for both platforms — saving time and budget.',
@@ -335,7 +328,6 @@ export const services = [
     metaTitle: 'AI Automation Agency UK | Chatbots, Workflows & Lead Generation',
     metaDescription:
       'AI automation for UK businesses — AI chatbots, workflow automation, AI lead generation and CRM integrations that save time, cut manual work and capture more leads.',
-    keywords: 'AI automation UK, AI automation agency, business process automation, AI chatbot, workflow automation, n8n automation, Zapier automation, AI lead generation, AI agents for business',
     tagline: 'Let AI handle the repetitive work — so your team can focus on growing the business.',
     intro: [
       'Most businesses lose hours every week to repetitive tasks: answering the same questions, copying data between systems, chasing leads and sending follow-ups. Our AI automation services take that work off your plate.',
@@ -387,7 +379,6 @@ export const services = [
     metaTitle: 'AI Chatbot Development UK | Website & WhatsApp Chatbots',
     metaDescription:
       'AI chatbot development in the UK. Website and WhatsApp chatbots powered by leading AI models to automate support, capture leads and book appointments 24/7.',
-    keywords: 'AI chatbot development UK, WhatsApp chatbot, website chatbot, ChatGPT integration, customer support automation, lead generation chatbot',
     tagline: 'Answer customers instantly and capture leads 24/7 — even while you sleep.',
     intro: [
       'Customers expect instant answers. Our AI chatbots are trained on your business information to answer questions, recommend services, capture contact details and book appointments around the clock on your website and WhatsApp.',
@@ -430,7 +421,6 @@ export const services = [
     metaTitle: 'Digital Marketing Agency UK | Strategy, Social & Content',
     metaDescription:
       'Data-driven digital marketing in the UK — strategy, social media, content and email marketing that grow traffic, leads and revenue. Selections Technologies.',
-    keywords: 'digital marketing agency UK, social media marketing, content marketing, email marketing, digital marketing Croydon, marketing strategy',
     tagline: 'Marketing that is measured by leads and revenue — not just likes.',
     intro: [
       'Good marketing starts with a clear strategy. We analyse your audience, competitors and goals, then build a digital marketing plan across the channels that will actually bring you customers.',
@@ -473,7 +463,6 @@ export const services = [
     metaTitle: 'SEO Services UK | Rank Higher on Google',
     metaDescription:
       'Professional SEO services in the UK — technical SEO, keyword research, on-page optimisation, local SEO and link building to grow organic traffic and leads.',
-    keywords: 'SEO services UK, SEO agency Croydon, local SEO, technical SEO, keyword research, link building, rank higher on Google',
     tagline: 'Get found on Google by customers who are already searching for you.',
     intro: [
       'Most people choose from the first page of Google results. Our SEO services help your business rank for the searches your customers actually make, bringing a steady stream of organic traffic without paying for every click.',
@@ -516,7 +505,6 @@ export const services = [
     metaTitle: 'Meta & Google Ads Management UK | PPC Agency',
     metaDescription:
       'ROI-focused Meta (Facebook & Instagram) and Google Ads management in the UK — campaign setup, pixel tracking, A/B testing and clear reporting.',
-    keywords: 'Google Ads management UK, Facebook ads agency, Instagram ads, PPC agency Croydon, Meta ads UK, pay per click advertising',
     tagline: 'Paid campaigns that reach the right people and deliver measurable returns.',
     intro: [
       'Paid advertising is the fastest way to put your business in front of ready-to-buy customers. We plan, launch and manage Meta and Google Ads campaigns that target the right audience and keep your cost per lead under control.',
@@ -559,7 +547,6 @@ export const services = [
     metaTitle: 'Graphic Design Services UK | Logo, Branding & UI/UX',
     metaDescription:
       'Graphic design services in the UK — logo design, brand identity, social media graphics, marketing materials and UI/UX design by Selections Technologies.',
-    keywords: 'graphic design UK, logo design Croydon, brand identity design, social media graphics, UI UX design UK, marketing materials design',
     tagline: 'Visual branding that makes your business instantly recognisable.',
     intro: [
       'Strong design builds trust before a customer reads a single word. Our designers create logos, brand identities and marketing materials that communicate your values and make your business stand out from competitors.',
@@ -602,7 +589,6 @@ export const services = [
     metaTitle: 'IT Consulting UK | Tech Strategy & Transformation',
     metaDescription:
       'IT consulting in the UK — technology strategy, digital transformation, architecture reviews and security audits that align IT with your business goals.',
-    keywords: 'IT consulting UK, technology consultant Croydon, digital transformation consulting, IT strategy, security audit, software architecture review',
     tagline: 'Clear, practical technology advice that supports your business goals.',
     intro: [
       'Choosing the right technology can be overwhelming. Our IT consultants help you make confident decisions — from selecting software and planning digital transformation to reviewing your systems for performance and security risks.',
@@ -645,7 +631,6 @@ export const services = [
     metaTitle: 'AI Lead Generation & Growth Marketing UK',
     metaDescription:
       'AI-powered lead generation and growth marketing in the UK — lead scoring, automated outreach and funnel optimisation that turn prospects into customers.',
-    keywords: 'AI lead generation UK, growth marketing agency, B2B lead generation, automated outreach, lead scoring, marketing automation UK',
     tagline: 'A predictable pipeline of qualified leads — powered by AI and automation.',
     intro: [
       'Finding and following up with the right prospects takes time. Our AI lead generation systems identify high-quality prospects, reach out with personalised messages and nurture them automatically until they are ready to talk to your team.',
@@ -688,7 +673,6 @@ export const services = [
     metaTitle: 'Care Agency Recruitment & Compliance Software UK',
     metaDescription:
       'Recruitment and compliance automation software for UK care agencies — candidate tracking, onboarding, DBS and document checks, and CQC compliance alerts.',
-    keywords: 'care agency recruitment software UK, care compliance software, CQC compliance system, care worker onboarding, DBS check tracking, domiciliary care software',
     tagline: 'Recruit, onboard and stay compliant — all from one simple system.',
     intro: [
       'Care agencies spend countless hours chasing documents, tracking DBS checks and preparing for inspections. Our recruitment and compliance system brings everything into one place, automating the repetitive admin so your team can focus on delivering great care.',

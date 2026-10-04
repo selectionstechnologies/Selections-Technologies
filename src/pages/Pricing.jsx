@@ -154,7 +154,6 @@ export default function Pricing() {
       <SEO
         title="Pricing | Website & SEO Packages"
         description="Transparent monthly packages from Selections Technologies — combining a professional website, SEO, digital marketing and AI chatbot automation. Plans from $249/month."
-        keywords="website and SEO package, digital marketing packages UK, SEO pricing, website design pricing, AI chatbot pricing, affordable marketing plans, Selections Technologies pricing"
         canonical="/pricing"
       />
 

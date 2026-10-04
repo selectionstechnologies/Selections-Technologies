@@ -134,7 +134,6 @@ export default function BlogPost() {
       logo: { '@type': 'ImageObject', url: 'https://selectionstechnologies.com/og-image.png' },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://selectionstechnologies.com/blog/${post.slug}` },
-    keywords: post.keywords,
     articleSection: post.category,
     inLanguage: 'en',
     isAccessibleForFree: true,
@@ -145,7 +144,6 @@ export default function BlogPost() {
       <SEO
         title={post.metaTitle}
         description={post.metaDescription}
-        keywords={post.keywords}
         canonical={`/blog/${post.slug}`}
         ogType="article"
       />

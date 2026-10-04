@@ -7,7 +7,6 @@ const DEFAULT_IMAGE = `${BASE_URL}/og-image.png`
 export default function SEO({
   title,
   description,
-  keywords = '',
   canonical,
   ogType = 'website',
   ogImage = DEFAULT_IMAGE,
@@ -25,7 +24,6 @@ export default function SEO({
       {/* Primary */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={url} />
       <meta name="robots" content={noIndex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
 
@@ -56,10 +54,6 @@ export default function SEO({
       {/* Extra */}
       <meta name="author" content={SITE_NAME} />
       <meta name="theme-color" content="#0F172A" />
-      <meta name="language" content="English" />
-      <meta name="revisit-after" content="7 days" />
-      <meta name="rating" content="General" />
-      <meta name="coverage" content="Worldwide" />
     </Helmet>
   )
 }

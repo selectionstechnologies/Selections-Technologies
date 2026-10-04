@@ -62,7 +62,6 @@ export default function Blog() {
       <SEO
         title="Blog | Web, SEO & Marketing Tips"
         description="Expert articles on web development, Shopify, WordPress, SEO, digital marketing, and IT strategies for UK businesses. Written by Selections Technologies."
-        keywords="web development blog UK, SEO tips UK, digital marketing blog UK, shopify guide UK, wordpress tips UK, IT blog UK, selections technologies blog"
         canonical="/blog"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogLd) }} />

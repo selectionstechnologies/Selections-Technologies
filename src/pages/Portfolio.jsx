@@ -501,7 +501,6 @@ export default function Portfolio() {
       <SEO
         title="Portfolio | Web Development Work"
         description="Explore 42+ real-world projects by Selections Technologies — WordPress websites, WooCommerce stores, custom web development for clients across the UK, UAE, Philippines and worldwide."
-        keywords="web development portfolio UK, WordPress projects, WooCommerce store development, IT company portfolio, website development examples, Shopify developer portfolio, digital agency work UK, Selections Technologies projects, web design portfolio UK"
         canonical="/portfolio"
         ogType="website"
       />

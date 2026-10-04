@@ -77,7 +77,6 @@ export default function ServiceDetail() {
       <SEO
         title={service.metaTitle}
         description={service.metaDescription}
-        keywords={service.keywords}
         canonical={`/services/${slug}`}
         appendSiteName={false}
       />

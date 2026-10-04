@@ -91,7 +91,6 @@ export default function Team() {
       <SEO
         title="Our Team | Developers, Designers & Marketers"
         description="Meet the Selections Technologies team — developers, designers, SEO and marketing specialists in Croydon, UK, who build and grow websites, stores and apps for businesses."
-        keywords="Selections Technologies team, web developers Croydon, UK web design team, digital marketing team UK"
         canonical="/team"
       />
 

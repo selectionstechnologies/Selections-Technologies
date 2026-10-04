@@ -74,7 +74,6 @@ export default function About() {
       <SEO
         title="About Us | UK IT & Web Agency"
         description="Selections Technologies is a dedicated IT company delivering high-quality software solutions, modern websites, and innovative digital services. Learn about our mission, vision, and core values."
-        keywords="about Selections Technologies, Selection Technologies company, Selections Tech, Selection Tech, IT company UK, software house UK, web development agency UK, digital agency UK, tech company UK, professional web developers UK, graphic design company UK, Shopify experts UK, WordPress experts UK, digital marketing agency UK, who is Selections Technologies, best software house UK, top IT company UK, technology solutions UK, company mission vision values"
         canonical="/about"
         ogType="website"
       />

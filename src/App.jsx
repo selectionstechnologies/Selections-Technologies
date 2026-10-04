@@ -124,7 +124,6 @@ const structuredData = {
         minValue: 5,
         maxValue: 20,
       },
-      keywords: 'web development, WordPress, Shopify, mobile app, digital marketing, SEO, graphic design, IT company UK, Croydon',
     },
     {
       '@type': 'WebSite',

@@ -115,7 +115,6 @@ export default function Contact() {
       <SEO
         title="Contact Us | Get a Free Quote"
         description="Contact Selections Technologies for professional web development, software solutions, mobile apps, and IT consulting. Reach us via email, phone, or WhatsApp. Based in the UK, serving worldwide."
-        keywords="contact Selections Technologies, hire web developer UK, web development quote UK, software development inquiry, Shopify developer contact, WordPress developer hire, digital marketing contact, graphic designer hire UK, mobile app development quote, IT consulting inquiry, WhatsApp IT support UK, affordable web developer, get website made UK, ecommerce store UK, Selection Technologies contact, Selections Tech contact"
         canonical="/contact"
         ogType="website"
       />

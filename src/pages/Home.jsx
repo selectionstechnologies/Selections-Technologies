@@ -510,7 +510,6 @@ export default function Home() {
       <SEO
         title="Web Development & IT Solutions UK"
         description="Selections Technologies — a trusted UK IT company for web development, WordPress, Shopify, mobile apps, digital marketing, graphic design, SEO & custom software. Affordable. Professional. Trusted."
-        keywords="Selections Technologies, Selection Technologies, Selections Tech, Selection Tech, web developer UK, web developer, web development company, website design UK, software house UK, IT company UK, mobile app development, digital marketing UK, graphic design UK, Shopify developer UK, WordPress developer UK, ecommerce website UK, SEO services UK, social media marketing, logo design, UI UX design, IT consulting, digital transformation, React developer UK, best IT company UK, affordable web development, custom software development, tech company UK, startup website, business website UK"
         canonical="/"
         ogType="website"
       />
