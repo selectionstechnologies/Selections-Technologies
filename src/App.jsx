@@ -26,6 +26,7 @@ const Gdpr = lazy(() => import('./pages/Gdpr'))
 const Security = lazy(() => import('./pages/Security'))
 const CookiePolicy = lazy(() => import('./pages/CookiePolicy'))
 const BookDemo = lazy(() => import('./pages/BookDemo'))
+const LocationPage = lazy(() => import('./pages/LocationPage'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 const BASE = 'https://selectionstechnologies.com'
@@ -174,6 +175,8 @@ export default function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/software-house-lahore" element={<LocationPage />} />
+              <Route path="/web-development-company-uk" element={<LocationPage />} />
               <Route path="/terms" element={<Terms />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/refund-policy" element={<RefundPolicy />} />

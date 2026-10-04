@@ -53,6 +53,7 @@ const SITE = 'https://selectionstechnologies.com'
 const priority = (url) => {
   if (url === '/') return '1.0'
   if (url === '/services' || url === '/pricing' || url.startsWith('/services/')) return '0.9'
+  if (url === '/software-house-lahore' || url === '/web-development-company-uk') return '0.9'
   if (url.startsWith('/blog/')) return '0.7'
   return '0.8'
 }

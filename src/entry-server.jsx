@@ -7,6 +7,7 @@ import App from './App.jsx'
 import { services } from './data/services.js'
 import { blogs } from './data/blogs.js'
 import { legalPages } from './data/legal.js'
+import { locations } from './data/locations.js'
 
 // Every URL that gets its own pre-rendered HTML file
 export const routes = [
@@ -22,6 +23,7 @@ export const routes = [
   '/contact',
   '/book-demo',
   '/team',
+  ...locations.map((l) => l.path),
   ...legalPages.map((p) => p.to),
   '/404',
 ]

@@ -52,11 +52,13 @@ const contacts = [
     title: 'United Kingdom',
     icon: MdLocationOn,
     lines: [{ text: '+44 7448 091908', href: 'tel:+447448091908' }, { text: 'Croydon High Street, UK' }],
+    page: { to: '/web-development-company-uk', label: 'Web development in the UK' },
   },
   {
     title: 'Pakistan',
     icon: MdLocationOn,
     lines: [{ text: '+92 300 3209005', href: 'tel:+923003209005' }, { text: '28 Davis Road, Lahore, PK' }],
+    page: { to: '/software-house-lahore', label: 'Software house in Lahore' },
   },
 ]
 
@@ -124,7 +126,7 @@ export default function Footer() {
           </div>
 
           <div className="lg:col-span-8 grid gap-4 sm:grid-cols-3">
-            {contacts.map(({ title, icon: Icon, lines }) => (
+            {contacts.map(({ title, icon: Icon, lines, page }) => (
               <div key={title} className="h-full rounded-2xl border border-white/10 bg-white/[0.03] p-5">
                 <div className="mb-3 flex items-center gap-2.5">
                   <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-blue/15 text-brand-cyan">
@@ -143,6 +145,11 @@ export default function Footer() {
                         {text}
                       </p>
                     )
+                  )}
+                  {page && (
+                    <Link to={page.to} className="inline-flex items-center gap-1.5 pt-1 font-semibold text-brand-cyan hover:gap-2.5 transition-all">
+                      {page.label} <HiArrowRight size={14} />
+                    </Link>
                   )}
                 </div>
               </div>
