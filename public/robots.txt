@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+Disallow: /api/
+Disallow: /*.json$
+
+Sitemap: https://selectionstechnologies.com/sitemap.xml

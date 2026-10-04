@@ -1,0 +1,37 @@
+# Selections Technologies
+
+> Selections Technologies is an IT agency based at Croydon High Street, UK, serving clients worldwide. We build websites, e-commerce stores, mobile apps and custom software, and provide SEO, digital marketing and AI automation.
+
+Contact: info@selectionstechnologies.com · +44 7448 091908 · WhatsApp: https://wa.me/447448091908
+
+## Main pages
+
+- [Home](https://selectionstechnologies.com/): Overview of our services and growth packages
+- [Services](https://selectionstechnologies.com/services): Web development, WordPress, Shopify, e-commerce, custom software, CRM, mobile apps, AI chatbots, digital marketing, SEO, Meta & Google Ads, graphic design, IT consulting, AI lead generation, and care agency recruitment & compliance automation
+- [Pricing](https://selectionstechnologies.com/pricing): Monthly growth packages combining website, SEO, marketing and AI automation — Silver ($249), Gold ($449), Platinum ($849)
+- [Portfolio](https://selectionstechnologies.com/portfolio): Real client projects across real estate, hospitality, e-commerce and WordPress
+- [About](https://selectionstechnologies.com/about): Our team and story
+- [Contact](https://selectionstechnologies.com/contact): Get a free quote
+
+## Services
+
+- [Web Development](https://selectionstechnologies.com/services/web-development): Custom, fast, and beautiful websites built with React, Next.js, and modern tech — tailored to your brand.
+- [WordPress Development](https://selectionstechnologies.com/services/wordpress-development): Professional WordPress websites with custom themes, Elementor, WooCommerce, and speed optimisation.
+- [Shopify Store Development](https://selectionstechnologies.com/services/shopify-development): Launch a stunning, conversion-optimised Shopify store — from setup to payment gateways and apps.
+- [E-Commerce Solutions](https://selectionstechnologies.com/services/ecommerce-solutions): Full ecommerce development including product management, payments, logistics, and conversion optimisation.
+- [Custom Software Development](https://selectionstechnologies.com/services/custom-software-development): Bespoke software engineered for your exact workflow — scalable, secure, and built to last.
+- [CRM Development](https://selectionstechnologies.com/services/crm-development): Custom CRM systems that streamline sales, customer management, and team collaboration in one platform.
+- [Mobile App Development](https://selectionstechnologies.com/services/mobile-app-development): Intuitive iOS and Android apps built with React Native — cross-platform, high performance, ready to publish.
+- [AI Chatbot Development](https://selectionstechnologies.com/services/ai-chatbot-development): Intelligent AI chatbots powered by ChatGPT / Gemini — automate customer support, lead generation & more.
+- [Digital Marketing](https://selectionstechnologies.com/services/digital-marketing): Data-driven digital marketing strategies that grow traffic, generate leads, and increase revenue.
+- [Search Engine Optimisation (SEO)](https://selectionstechnologies.com/services/seo): Rank higher on Google with technical SEO, keyword strategy, link building, and content optimisation.
+- [Meta & Google Ads](https://selectionstechnologies.com/services/meta-google-ads): ROI-focused paid ad campaigns on Facebook, Instagram, and Google — targeting the right audience at the right cost.
+- [Graphic Designing](https://selectionstechnologies.com/services/graphic-design): Stunning visual identities, logos, social media creatives, and marketing materials that make your brand stand out.
+- [IT Consulting](https://selectionstechnologies.com/services/it-consulting): Strategic technology consulting to align your IT infrastructure with business goals and drive digital transformation.
+- [AI Lead Generation & Growth Marketing](https://selectionstechnologies.com/services/ai-lead-generation): AI-powered lead generation and growth campaigns that find, nurture, and convert high-quality prospects on autopilot.
+- [Care Agency Recruitment & Compliance Automation System](https://selectionstechnologies.com/services/care-agency-recruitment-compliance-system): An all-in-one system for care agencies to automate candidate recruitment, onboarding, and CQC compliance tracking.
+
+## Optional
+
+- [Blog](https://selectionstechnologies.com/blog): Articles on web development, SEO, digital marketing and AI for businesses
+- [Courses](https://selectionstechnologies.com/courses): Training courses
