@@ -130,7 +130,7 @@ export default function Team() {
                 Real people you can reach directly — not a faceless agency.
               </p>
             </div>
-            <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
+            <div className="mx-auto grid max-w-sm grid-cols-1 gap-6 sm:max-w-none sm:grid-cols-2 lg:grid-cols-4 lg:gap-4 xl:gap-6">
               {team.map(({ name, role, photo, links = {} }, i) => (
                 <m.div
                   key={name}
@@ -138,11 +138,11 @@ export default function Team() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
                   transition={{ duration: 0.6, delay: i * 0.12, ease: 'easeOut' }}
-                  className="w-full max-w-[19rem]"
+                  className="w-full"
                 >
-                  <article className="group flex h-full flex-col items-center rounded-3xl px-6 pt-8 pb-7 text-center transition-all duration-300 hover:-translate-y-1.5 hover:bg-white hover:shadow-2xl hover:shadow-brand-blue/10">
+                  <article className="group flex h-full flex-col items-center rounded-3xl px-4 pt-8 pb-7 text-center transition-all duration-300 hover:-translate-y-1.5 hover:bg-white hover:shadow-2xl hover:shadow-brand-blue/10">
                     {/* Photo: brand gradient ring + tinted backdrop; multiply turns white photo backgrounds into the tint */}
-                    <div className="relative h-52 w-52 sm:h-56 sm:w-56 rounded-full bg-gradient-to-br from-brand-blue/25 to-brand-cyan/25 p-[3px] transition-all duration-300 group-hover:from-brand-blue group-hover:to-brand-cyan">
+                    <div className="relative h-52 w-52 sm:h-56 sm:w-56 lg:h-44 lg:w-44 xl:h-52 xl:w-52 rounded-full bg-gradient-to-br from-brand-blue/25 to-brand-cyan/25 p-[3px] transition-all duration-300 group-hover:from-brand-blue group-hover:to-brand-cyan">
                       <div className="isolate h-full w-full overflow-hidden rounded-full bg-gradient-to-br from-[#DCE8FF] via-[#EEF5FF] to-[#D5F2F8] ring-4 ring-white">
                         {photo ? (
                           <img
@@ -161,7 +161,7 @@ export default function Team() {
                       </div>
                     </div>
 
-                    <h3 className="mt-7 text-2xl font-bold text-navy">{name}</h3>
+                    <h3 className="mt-7 whitespace-nowrap text-2xl sm:text-xl md:text-2xl lg:text-lg xl:text-xl font-bold text-navy">{name}</h3>
                     <span className="mt-3 h-1 w-10 rounded-full bg-gradient-to-r from-brand-blue to-brand-cyan transition-all duration-300 group-hover:w-16" />
                     <p className="mt-3 text-base text-slate-500">{role}</p>
 

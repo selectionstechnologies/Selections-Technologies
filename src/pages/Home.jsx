@@ -309,7 +309,7 @@ const dashNav = [
 
 // Laptop showing a Selections dashboard, with a blue blob behind and a handwritten note
 function HeroLaptop() {
-  const avatar = team.find((t) => t.photo)?.photo
+  const avatar = (team.find((t) => t.short === 'CEO') ?? team.find((t) => t.photo))?.photo
   return (
     <div className="relative mx-auto w-full max-w-[640px] pt-10">
       {/* Blob */}

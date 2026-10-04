@@ -1,5 +1,6 @@
 import { m } from 'framer-motion'
 import SEO from '../components/SEO'
+import CountUp from '../components/CountUp'
 import { HiOutlineLightningBolt, HiOutlineShieldCheck, HiOutlineStar, HiOutlineHeart, HiArrowRight } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 
@@ -49,10 +50,10 @@ const values = [
 ]
 
 const stats = [
-  { value: '50+', label: 'Projects Delivered' },
-  { value: '30+', label: 'Happy Clients' },
-  { value: '5+', label: 'Years Experience' },
-  { value: '4', label: 'Core Services' },
+  { end: 100, suffix: '+', label: 'Projects Delivered' },
+  { end: 50, suffix: '+', label: 'Happy Clients' },
+  { end: 5, suffix: '+', label: 'Years Experience' },
+  { end: 6, label: 'Core Services' },
 ]
 
 const aboutLd = {
@@ -151,14 +152,14 @@ export default function About() {
               variants={stagger}
               className="grid grid-cols-2 gap-5"
             >
-              {stats.map(({ value, label }, i) => (
+              {stats.map(({ end, suffix, label }, i) => (
                 <m.div
                   key={label}
                   variants={fadeUp}
                   custom={i}
                   className="p-7 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow text-center"
                 >
-                  <div className="text-3xl sm:text-4xl font-extrabold text-gradient mb-2">{value}</div>
+                  <div className="text-3xl sm:text-4xl font-extrabold text-gradient mb-2"><CountUp end={end} suffix={suffix} /></div>
                   <div className="text-slate-500 text-sm font-medium">{label}</div>
                 </m.div>
               ))}

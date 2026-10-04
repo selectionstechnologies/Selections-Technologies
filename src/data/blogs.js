@@ -115,14 +115,13 @@ export const blogs = [
         text: "Payments are where Pakistan differs most from the guides written for the US or UK. Shopify's own payment system is not available to Pakistan-based businesses, so you will combine Cash on Delivery with local and international options.",
       },
       {
-        type: 'table',
-        headers: ["Payment Method", "Best For", "Setup"],
-        rows: [
-          ["Cash on Delivery (COD)", "Most Pakistani buyers prefer COD", "Built into Shopify — free to enable"],
-          ["JazzCash", "Mobile wallet payments", "Available via third-party plugins"],
-          ["EasyPaisa", "Mobile wallet payments", "Available via third-party plugins"],
-          ["Bank Transfer (HBL, MCB, UBL)", "Larger orders", "Manual payment method in Shopify"],
-          ["PayPal / Stripe", "International customers", "Requires a business account"],
+        type: 'ul',
+        items: [
+          "Enable Cash on Delivery from Settings → Payments → Manual payment methods. It costs nothing to switch on and is what most first-time buyers expect.",
+          "Add at least one online payment option so customers who prefer to pay upfront are not forced into COD.",
+          "Check each provider's transaction fees, settlement time and payout schedule, as these directly affect your cash flow.",
+          "Make sure your business registration and documents match what the provider requires before you apply, to avoid delays in approval.",
+          "Show accepted payment methods clearly on product pages and in the footer so customers know their options before checkout.",
         ],
       },
       {
@@ -225,26 +224,21 @@ export const blogs = [
       },
       {
         type: 'h2',
-        text: "Cost of Running a Shopify Store in Pakistan",
+        text: "Planning Your Store Budget",
       },
       {
         type: 'p',
-        text: "Costs vary with your plan, theme, apps and marketing budget. The figures below are approximate starting points; Shopify plan prices are set in US dollars, so the rupee cost moves with the exchange rate.",
+        text: "Every store's budget looks different, depending on your products, the plan you choose, the apps you rely on and how aggressively you market. Rather than spending heavily on day one, start lean, measure what works and reinvest profits into the areas that bring real sales.",
       },
       {
-        type: 'table',
-        headers: ["Expense", "Cost (Monthly)"],
-        rows: [
-          ["Shopify Basic Plan", "approx. PKR 8,000–10,000/month"],
-          ["Custom Domain (.com)", "approx. PKR 200/month"],
-          ["Premium Theme (one-time)", "PKR 20,000–60,000"],
-          ["Paid Apps (optional)", "PKR 2,000–8,000/month"],
-          ["Facebook Ads (starter)", "PKR 15,000–30,000/month"],
+        type: 'ul',
+        items: [
+          "Platform and domain — your Shopify subscription and custom domain are fixed recurring costs, so factor them in from the start.",
+          "Design — a free theme is often enough to launch. Upgrade to a premium theme or custom design once you have steady orders.",
+          "Apps — install only what solves a real problem today, and review your app list every few months to cancel anything unused.",
+          "Marketing — keep a separate, consistent advertising budget and track the cost of each sale, not just clicks or likes.",
+          "Operations — include courier charges, packaging, payment processing fees and returned COD parcels when calculating profit per order.",
         ],
-      },
-      {
-        type: 'callout',
-        text: "Remember to include courier charges, packaging, payment processing fees and the cost of refused COD parcels when you calculate your profit per order.",
       },
       {
         type: 'h2',

@@ -184,17 +184,15 @@ function FeatureCard({ menu, eyebrow, title, desc, to }) {
   )
 }
 
-// The ten services listed in the dropdown; the full list lives on /services
+// The eight services listed in the dropdown; the full list lives on /services
 const FEATURED_SERVICES = [
   'ai-automation',
-  'web-development',
   'shopify-development',
   'wordpress-development',
   'ecommerce-solutions',
   'mobile-app-development',
   'custom-software-development',
   'seo',
-  'digital-marketing',
   'meta-google-ads',
 ]
 const featuredServices = FEATURED_SERVICES.map((slug) => services.find((s) => s.slug === slug)).filter(Boolean)
@@ -375,7 +373,11 @@ export default function Navbar() {
                 </a>
                 <a href="tel:+447448091908" className="flex items-center gap-2 text-sm font-medium text-white/90 hover:text-white transition-colors">
                   <HiOutlinePhone size={17} />
-                  +44 7448 091908
+                  <span className="font-semibold text-white">UK</span> +44 7448 091908
+                </a>
+                <a href="tel:+923003209005" className="hidden lg:flex items-center gap-2 text-sm font-medium text-white/90 hover:text-white transition-colors">
+                  <HiOutlinePhone size={17} />
+                  <span className="font-semibold text-white">PK</span> +92 300 3209005
                 </a>
               </div>
               <div className="flex items-center gap-4">

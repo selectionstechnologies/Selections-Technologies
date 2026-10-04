@@ -1,6 +1,7 @@
 import aliraza from '../assests/teams/aliraza.webp'
 import babar from '../assests/teams/babar.webp'
 import ehtisham from '../assests/teams/ehtisham.webp'
+import ahsan from '../assests/teams/ahsan.webp'
 
 // Team members shown on /team. Put photos in src/assests/teams/ and import them here;
 // without a photo the card shows the person's initials.
@@ -9,6 +10,19 @@ import ehtisham from '../assests/teams/ehtisham.webp'
 // Example:
 // { name: 'Full Name', role: 'Role', short: 'CMO', bio: 'One or two lines.', photo: img, links: { linkedin: 'https://...' } },
 export const team = [
+  {
+    name: 'Muhammad Ahsan Khan',
+    role: 'Director & Owner',
+    short: 'Director',
+    photo: ahsan,
+    bio: 'Owns and directs Selections Technologies — setting the company’s direction and overseeing finance, budgeting and business planning as it grows.',
+    links: {
+      linkedin: 'https://www.linkedin.com/in/muhammadahsankhan/',
+      // TODO: replace with his own Facebook profile; company page used for now
+      facebook: 'https://www.facebook.com/selections.technologies',
+      instagram: 'https://www.instagram.com/muhammad.ahsan.khan/',
+    },
+  },
   {
     name: 'Ali Raza',
     role: 'CEO & Founder',
