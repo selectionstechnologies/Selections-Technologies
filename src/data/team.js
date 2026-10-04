@@ -18,8 +18,7 @@ export const team = [
     bio: 'Owns and directs Selections Technologies — setting the company’s direction and overseeing finance, budgeting and business planning as it grows.',
     links: {
       linkedin: 'https://www.linkedin.com/in/muhammadahsankhan/',
-      // TODO: replace with his own Facebook profile; company page used for now
-      facebook: 'https://www.facebook.com/selections.technologies',
+      facebook: 'https://www.facebook.com/MAK.muhammadahsan/',
       instagram: 'https://www.instagram.com/muhammad.ahsan.khan/',
     },
   },

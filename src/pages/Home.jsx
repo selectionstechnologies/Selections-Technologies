@@ -41,6 +41,7 @@ import { WEB3FORMS_KEY } from '../data/forms'
 import CountUp from '../components/CountUp'
 import PricingPlans from '../components/PricingPlans'
 import { team } from '../data/team'
+import ceoAvatar from '../assests/teams/aliraza-avatar.webp'
 import { services as allServices } from '../data/services'
 
 const BASE = 'https://selectionstechnologies.com'
@@ -289,14 +290,14 @@ const heroFeatures = [
 
 const dashStats = [
   { label: 'Total Projects', end: 100, suffix: '+', change: '12%', Icon: HiOutlineFolder, tile: 'bg-blue-50 text-brand-blue' },
-  { label: 'Happy Clients', end: 100, suffix: '+', change: '18%', Icon: HiOutlineUsers, tile: 'bg-emerald-50 text-emerald-600' },
+  { label: 'Happy Clients', end: 50, suffix: '+', change: '18%', Icon: HiOutlineUsers, tile: 'bg-emerald-50 text-emerald-600' },
   { label: 'Years Experience', end: 5, suffix: '+', change: '20%', Icon: HiOutlineSparkles, tile: 'bg-amber-50 text-amber-500' },
 ]
 
 const dashProjects = [
-  { name: 'E-Commerce Platform', type: 'Web Development', status: 'Completed', Icon: HiOutlineShoppingBag, tile: 'bg-blue-50 text-brand-blue', badge: 'bg-emerald-50 text-emerald-600' },
+  { name: 'E-Commerce Platform', type: 'Web Development', status: 'Completed', Icon: HiOutlineShoppingBag, tile: 'bg-blue-50 text-brand-blue', badge: 'bg-emerald-50 text-emerald-700' },
   { name: 'Marketing Campaign', type: 'Digital Marketing', status: 'In Progress', Icon: HiOutlineMegaphone, tile: 'bg-emerald-50 text-emerald-600', badge: 'bg-blue-50 text-brand-blue' },
-  { name: 'Business Software', type: 'Software Solutions', status: 'Completed', Icon: HiOutlineCloud, tile: 'bg-purple-50 text-purple-600', badge: 'bg-emerald-50 text-emerald-600' },
+  { name: 'Business Software', type: 'Software Solutions', status: 'Completed', Icon: HiOutlineCloud, tile: 'bg-purple-50 text-purple-600', badge: 'bg-emerald-50 text-emerald-700' },
 ]
 
 const dashNav = [
@@ -309,7 +310,7 @@ const dashNav = [
 
 // Laptop showing a Selections dashboard, with a blue blob behind and a handwritten note
 function HeroLaptop() {
-  const avatar = (team.find((t) => t.short === 'CEO') ?? team.find((t) => t.photo))?.photo
+  const avatar = ceoAvatar
   return (
     <div className="relative mx-auto w-full max-w-[640px] pt-10">
       {/* Blob */}
@@ -358,7 +359,7 @@ function HeroLaptop() {
             {/* Main */}
             <div className="flex-1 min-w-0 p-3">
               <div className="mb-3 flex items-center gap-2">
-                <span className="flex h-5 flex-1 items-center gap-1 rounded-md border border-slate-200 bg-white px-2 text-[7px] text-slate-400">
+                <span className="flex h-5 flex-1 items-center gap-1 rounded-md border border-slate-200 bg-white px-2 text-[7px] text-slate-500">
                   <HiOutlineMagnifyingGlass size={8} /> Search anything...
                 </span>
                 <HiOutlineBell size={11} className="text-slate-400" />
@@ -377,7 +378,7 @@ function HeroLaptop() {
                     <div className="mt-0.5 text-sm font-extrabold text-navy">
                       <CountUp end={end} suffix={suffix} />
                     </div>
-                    <div className="text-[6px] font-semibold text-emerald-600">↑ {change}</div>
+                    <div className="text-[6px] font-semibold text-emerald-700">↑ {change}</div>
                   </div>
                 ))}
               </div>
@@ -408,7 +409,7 @@ function HeroLaptop() {
                       </span>
                       <span className="min-w-0 flex-1 leading-none">
                         <span className="block truncate text-[6px] font-semibold text-navy">{name}</span>
-                        <span className="block truncate text-[5px] text-slate-400">{type}</span>
+                        <span className="block truncate text-[5px] text-slate-500">{type}</span>
                       </span>
                       <span className={`shrink-0 rounded px-1 py-0.5 text-[5px] font-semibold ${badge}`}>{status}</span>
                     </div>
@@ -453,7 +454,7 @@ function ServiceMarquee() {
                     tabIndex={i >= row.length ? -1 : undefined}
                     className="flex items-center gap-3 whitespace-nowrap rounded-full border border-white/10 bg-white/[0.04] px-6 py-3.5 text-base font-semibold text-white transition-colors hover:border-brand-cyan/50 hover:bg-white/10 sm:text-lg"
                   >
-                    <Icon className="text-brand-cyan" size={20} />
+                    <Icon className="text-brand-cyan" size={20} aria-hidden="true" />
                     {title}
                   </Link>
                 </li>

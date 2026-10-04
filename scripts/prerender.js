@@ -47,9 +47,9 @@ for (const url of routes) {
   }
 }
 
-// Sitemap is generated from the same route list so new pages are never missed
+// Sitemap is generated from the same route list so new pages are never missed.
+// No <lastmod>: stamping every page with the build date teaches Google to ignore it.
 const SITE = 'https://selectionstechnologies.com'
-const today = new Date().toISOString().slice(0, 10)
 const priority = (url) => {
   if (url === '/') return '1.0'
   if (url === '/services' || url === '/pricing' || url.startsWith('/services/')) return '0.9'
@@ -62,7 +62,6 @@ ${routes
   .filter((url) => url !== '/404')
   .map((url) => `  <url>
     <loc>${SITE}${url === '/' ? '/' : url}</loc>
-    <lastmod>${today}</lastmod>
     <priority>${priority(url)}</priority>
   </url>`)
   .join('\n')}
