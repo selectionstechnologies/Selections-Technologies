@@ -48,7 +48,7 @@ const structuredData = {
       },
       image: `${BASE}/og-image.png`,
       description:
-        'Selections Technologies is a UK-based IT company offering web development, WordPress, Shopify, mobile app development, digital marketing, SEO, graphic design, AI chatbots, CRM, and custom software solutions.',
+        'Selections Technologies is a UK-based IT company offering A.I Automation, intelligent Chat Bots, web development, WordPress, Shopify, mobile apps, digital marketing, SEO, and custom software solutions.',
       telephone: '+447448091908',
       email: 'info@selectionstechnologies.com',
       address: {

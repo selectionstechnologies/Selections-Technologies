@@ -187,9 +187,9 @@ function FeatureCard({ menu, eyebrow, title, desc, to }) {
 // The eight services listed in the dropdown; the full list lives on /services
 const FEATURED_SERVICES = [
   'ai-automation',
+  'ai-chatbot-development',
   'shopify-development',
   'wordpress-development',
-  'ecommerce-solutions',
   'mobile-app-development',
   'custom-software-development',
   'seo',

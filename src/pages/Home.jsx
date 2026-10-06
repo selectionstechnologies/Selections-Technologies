@@ -24,7 +24,6 @@ import { MdSend } from 'react-icons/md'
 import {
   HiOutlineRocketLaunch,
   HiOutlineCodeBracket,
-  HiOutlineMegaphone,
   HiOutlineCloud,
   HiOutlineSquares2X2,
   HiOutlineFolder,
@@ -52,7 +51,7 @@ const homeLd = {
   '@id': `${BASE}/#webpage`,
   url: `${BASE}/`,
   name: 'Selections Technologies | Web Development & IT Solutions UK',
-  description: 'Selections Technologies provides innovative web development, software solutions, and digital transformation services to help businesses grow and succeed.',
+  description: 'Selections Technologies specializes in A.I Automation, intelligent Chat Bots, custom web development, bespoke software solutions, and digital transformation services to help modern businesses automate workflows and accelerate growth.',
   isPartOf: { '@id': `${BASE}/#website` },
   about: { '@id': `${BASE}/#organization` },
 }
@@ -145,12 +144,12 @@ const stagger = {
 }
 
 const teaserServices = [
+  { icon: HiOutlineSparkles, slug: 'ai-automation', title: 'A.I Automation', desc: 'Smart workflows & business automation' },
+  { icon: FaRobot, slug: 'ai-chatbot-development', title: 'Chat Bots & AI Agents', desc: '24/7 automated support & leads' },
   { icon: HiOutlineGlobeAlt, slug: 'web-development', title: 'Web Development', desc: 'Fast, modern websites & web apps' },
   { icon: FaShopify, slug: 'shopify-development', title: 'Shopify & WordPress', desc: 'Stores and sites that convert' },
   { icon: HiOutlineDeviceMobile, slug: 'mobile-app-development', title: 'Mobile Apps', desc: 'iOS & Android with React Native' },
   { icon: HiOutlineSpeakerphone, slug: 'digital-marketing', title: 'Digital Marketing', desc: 'Campaigns that drive growth' },
-  { icon: HiOutlineTrendingUp, slug: 'seo', title: 'SEO & Google Ads', desc: 'Rank higher, reach more buyers' },
-  { icon: FaRobot, slug: 'ai-chatbot-development', title: 'AI Chatbot', desc: '24/7 automated support & leads' },
 ]
 
 const whyCards = [
@@ -252,7 +251,8 @@ const testimonials = [
 ]
 
 const services = [
-  'AI Automation',
+  'A.I Automation',
+  'Chat Bots / AI Agents',
   'Web Development',
   'WordPress Website',
   'Shopify Store',
@@ -261,7 +261,6 @@ const services = [
   'Graphic Design',
   'SEO Services',
   'Custom Software',
-  'AI Chatbot',
   'Other',
 ]
 
@@ -282,10 +281,10 @@ function Orb({ className }) {
 }
 
 const heroFeatures = [
+  { to: '/services/ai-automation', Icon: HiOutlineSparkles, title: 'A.I Automation', desc: 'Workflows & smart agents', tile: 'bg-indigo-100 text-indigo-600' },
+  { to: '/services/ai-chatbot-development', Icon: FaRobot, title: 'Chat Bots', desc: '24/7 intelligent support', tile: 'bg-cyan-100 text-cyan-600' },
   { to: '/services/web-development', Icon: HiOutlineCodeBracket, title: 'Web Development', desc: 'Modern, scalable & fast', tile: 'bg-blue-100 text-brand-blue' },
-  { to: '/services/digital-marketing', Icon: HiOutlineMegaphone, title: 'Digital Marketing', desc: 'Grow your online presence', tile: 'bg-purple-100 text-purple-600' },
   { to: '/services/custom-software-development', Icon: HiOutlineCloud, title: 'Software Solutions', desc: 'Custom for your business', tile: 'bg-emerald-100 text-emerald-600' },
-  { to: '/services', Icon: HiOutlineRocketLaunch, title: 'Digital Transformation', desc: 'Build a smarter future', tile: 'bg-orange-100 text-orange-500' },
 ]
 
 const dashStats = [
@@ -295,9 +294,9 @@ const dashStats = [
 ]
 
 const dashProjects = [
+  { name: 'AI Customer Bot', type: 'Chat Bots', status: 'Completed', Icon: FaRobot, tile: 'bg-indigo-50 text-indigo-600', badge: 'bg-emerald-50 text-emerald-700' },
   { name: 'E-Commerce Platform', type: 'Web Development', status: 'Completed', Icon: HiOutlineShoppingBag, tile: 'bg-blue-50 text-brand-blue', badge: 'bg-emerald-50 text-emerald-700' },
-  { name: 'Marketing Campaign', type: 'Digital Marketing', status: 'In Progress', Icon: HiOutlineMegaphone, tile: 'bg-emerald-50 text-emerald-600', badge: 'bg-blue-50 text-brand-blue' },
-  { name: 'Business Software', type: 'Software Solutions', status: 'Completed', Icon: HiOutlineCloud, tile: 'bg-purple-50 text-purple-600', badge: 'bg-emerald-50 text-emerald-700' },
+  { name: 'Workflow Engine', type: 'A.I Automation', status: 'In Progress', Icon: HiOutlineSparkles, tile: 'bg-emerald-50 text-emerald-600', badge: 'bg-blue-50 text-brand-blue' },
 ]
 
 const dashNav = [
@@ -509,8 +508,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Web Development & IT Solutions UK"
-        description="Selections Technologies — a trusted UK IT company for web development, WordPress, Shopify, mobile apps, digital marketing, graphic design, SEO & custom software. Affordable. Professional. Trusted."
+        title="A.I Automation, Chat Bots, Web Development & IT Solutions UK"
+        description="Selections Technologies — UK leader in A.I Automation, Chat Bots, web development, WordPress, Shopify, mobile apps, and custom software. Automate workflows and scale your business."
         canonical="/"
         ogType="website"
       />
@@ -538,9 +537,12 @@ export default function Home() {
                 <span className="bg-gradient-to-r from-brand-blue to-indigo-500 bg-clip-text text-transparent">Technology</span>
               </h1>
 
-              <p className="max-w-xl mx-auto lg:mx-0 text-slate-600 text-base sm:text-lg leading-relaxed mb-9">
-                Selections Technologies provides innovative web development, software solutions, and digital
-                transformation services to help businesses grow and succeed.
+              <p className="max-w-2xl mx-auto lg:mx-0 text-slate-600 text-base sm:text-lg leading-relaxed mb-9">
+                A.I Automation, intelligent Chat Bots, custom web development, bespoke software solutions, and digital
+                transformation — Selections Technologies empowers modern businesses to automate repetitive workflows,
+                engage customers 24/7, and scale with confidence. From autonomous AI agents and smart conversational bots
+                to high-performance web platforms and cloud systems, we build future-ready technology designed to drive
+                measurable growth.
               </p>
 
               <div className="motion-safe:animate-fade-up [animation-delay:150ms] flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
