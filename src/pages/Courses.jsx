@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { m, AnimatePresence } from 'framer-motion'
 import { HiX, HiOutlineClock, HiOutlineAcademicCap, HiOutlineGlobe, HiOutlineCheckCircle, HiArrowRight } from 'react-icons/hi'
-import { FaShopify, FaWordpress, FaMeta, FaChartLine } from 'react-icons/fa6'
+import { FaShopify, FaWordpress, FaMeta, FaChartLine, FaLaptopCode } from 'react-icons/fa6'
 import { MdStorefront, MdDesignServices, MdSmartphone, MdSearch } from 'react-icons/md'
 import { SiOpenai } from 'react-icons/si'
 import { Link } from 'react-router-dom'
@@ -68,7 +68,7 @@ const courses = [
   },
   {
     id: 3,
-    icon: SiOpenai,
+    icon: FaLaptopCode,
     title: 'Web Development with AI',
     badge: 'Beginner',
     price: '$199',

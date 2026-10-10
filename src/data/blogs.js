@@ -1,5 +1,424 @@
 export const blogs = [
   {
+    id: 10,
+    slug: 'off-page-seo-backlinks-guide-pakistan',
+    title: 'Off-Page SEO in 2026: Every Type of Backlink Explained (Guest Posts, Forums, Profiles and More)',
+    metaTitle: 'Off-Page SEO Techniques 2026: Backlinks, DA/PA & Guest Posting',
+    metaDescription: 'A practical off-page SEO guide for 2026. Learn which backlinks actually work, how to read DA and PA, and how to use guest posting, forum, profile, comment and local citation links safely.',
+    category: 'SEO',
+    categoryColor: 'text-emerald-600 bg-emerald-50 border-emerald-200',
+    author: 'Selections Technologies',
+    date: '2026-10-10',
+    readTime: '14 min read',
+    excerpt: 'Guest posts, forum links, profile links, blog comments, citations and digital PR. We break down every type of backlink, what DA and PA really tell you, and how to build links without getting your site penalised.',
+    coverGradient: 'linear-gradient(135deg, #10b981 0%, #0f766e 100%)',
+    icon: 'seo',
+    content: [
+      {
+        type: 'p',
+        text: "Here is something we hear almost every week from business owners: “Our website looks great, the pages are optimised, but we are still stuck on page three.” Nine times out of ten, the problem is not on the website at all. It is everything that happens off it. Google does not only read what you say about yourself; it pays close attention to what the rest of the internet says about you. That second part is off-page SEO.",
+      },
+      {
+        type: 'p',
+        text: "In this guide we go through every common type of backlink and off-page SEO technique: guest posting, free guest posts, forum backlinks, profile backlinks, blog comments, local citations, digital PR and a few others. For each one we give you our honest view, along with the DA and PA you can usually expect. Some are worth your time in 2026. Some were useful ten years ago and now do very little. A couple can actively hurt you. We would rather you hear that from us than learn it from a ranking drop.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Off-Page SEO, in Plain Words?",
+      },
+      {
+        type: 'p',
+        text: "Off-page SEO is any activity outside your own website that helps search engines trust it. The biggest piece is backlinks, which are simply links from other websites pointing to yours. Each relevant link works a bit like a recommendation. One recommendation from a respected industry website counts for more than a hundred from sites nobody visits.",
+      },
+      {
+        type: 'p',
+        text: "But off-page SEO is wider than links. Brand mentions (even without a link), your Google Business Profile, reviews, social activity, podcast appearances and the general buzz around your name all feed the same signal: is this a real, trusted business that people talk about? Off-page work also sits on top of on-page work, not instead of it. If you want a refresher on keywords, content and technical SEO first, read our [complete guide to ranking on Google in Pakistan](/blog/how-to-rank-website-on-google-in-pakistan).",
+      },
+      {
+        type: 'h2',
+        text: "Do Backlinks Still Matter in 2026?",
+      },
+      {
+        type: 'p',
+        text: "Yes, though not in the way people think. Every couple of years someone announces that “links are dead”, and every year the data says otherwise. Pages ranking in the top positions for competitive keywords almost always have more quality links pointing to them than the pages below. What has changed is that Google has become very good at ignoring junk. Its spam updates and link spam systems now simply discount low quality links instead of counting them, and in obvious cases of manipulation they can trigger a manual action.",
+      },
+      {
+        type: 'p',
+        text: "So the question is no longer “how many backlinks do I have?” It is “how many links do I have that a real person might actually click?” Keep that test in mind as you read the rest of this article. It filters out most bad decisions before you make them.",
+      },
+      {
+        type: 'h2',
+        text: "DA and PA Explained: What They Mean and What They Don’t",
+      },
+      {
+        type: 'p',
+        text: "If you have ever bought an SEO package or spoken to a link seller, you have heard “DA 50 backlinks” thrown around. It helps to know what these numbers actually are before you spend money on them.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Domain Authority (DA) is a score from 1 to 100 created by Moz. It predicts how strong a whole website is likely to be in search results, based mainly on the number and quality of sites linking to it.",
+          "Page Authority (PA) is the same idea for a single page. A website can have DA 90 while the particular page your link sits on has PA 5, because nothing links to that page.",
+          "The scale is logarithmic. Moving from DA 10 to DA 20 is fairly easy. Moving from DA 60 to DA 70 is very hard.",
+          "Other tools have their own versions: Ahrefs uses Domain Rating (DR) and URL Rating (UR), and Semrush uses Authority Score (AS). The numbers will not match each other, so compare sites using the same tool.",
+        ],
+      },
+      {
+        type: 'callout',
+        text: "The most important thing to know: Google does not use DA or PA. They are third party estimates. They are useful for comparing websites quickly, but a link from a relevant DA 25 blog in your industry can help you more than a link from an unrelated DA 70 site that sells posts to everyone.",
+      },
+      {
+        type: 'h3',
+        text: "A rough guide to DA ranges",
+      },
+      {
+        type: 'table',
+        headers: ["DA Range", "What It Usually Means", "Worth Getting a Link?"],
+        rows: [
+          ["1 to 10", "New or very small sites, or sites with almost no links", "Only if highly relevant (a local partner, supplier or client)"],
+          ["11 to 30", "Small but established blogs and local business sites", "Yes, if the site is real and on topic"],
+          ["31 to 50", "Solid niche blogs, regional news and industry sites", "Yes, these are the backbone of most link profiles"],
+          ["51 to 70", "Well known publications and large industry sites", "Very good, usually earned through PR or strong guest posts"],
+          ["71 to 100", "Major news sites, universities, governments and big platforms", "Excellent for editorial links; low value for profile or comment links"],
+        ],
+      },
+      {
+        type: 'h3',
+        text: "How to check a site before you get a link from it",
+      },
+      {
+        type: 'ol',
+        items: [
+          "Check DA and PA with the free MozBar extension or Moz Link Explorer. Note the PA of the exact page where your link would sit, not just the homepage.",
+          "Check organic traffic in Ahrefs, Semrush or Ubersuggest. A DA 50 site with almost zero traffic is a warning sign; its authority may come from bought links.",
+          "Look at the content. Does it actually relate to your business? Are recent posts written for readers, or for links?",
+          "Look at the spam score in Moz. A high score does not prove a site is bad, but it is a reason to look closer.",
+          "Ask yourself the simple question: would I be happy if a potential customer clicked this link and landed on this site?",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Dofollow vs Nofollow: A Quick Note",
+      },
+      {
+        type: 'p',
+        text: "You will hear these terms a lot. A normal link is often called “dofollow”, meaning it passes ranking value. A link marked rel=“nofollow”, “ugc” (user generated content) or “sponsored” tells Google not to treat it as an endorsement. Google now treats these as hints rather than strict rules, so a nofollow link from a big site is not worthless. It can still send traffic, build brand recognition and look natural in your link profile. Healthy websites have a mix of both, and a profile that is 100% dofollow actually looks suspicious.",
+      },
+      {
+        type: 'h2',
+        text: "Every Type of Backlink, Ranked by Real Value",
+      },
+      {
+        type: 'p',
+        text: "Below is a quick comparison, including the DA and PA you can typically expect from each type. We go through each one in detail after the table.",
+      },
+      {
+        type: 'table',
+        headers: ["Backlink Type", "SEO Value", "Typical DA / PA", "Effort", "Risk if Abused"],
+        rows: [
+          ["Editorial links / Digital PR", "Very high", "DA 50 to 90+, good PA", "High", "Low"],
+          ["Guest posting (quality sites)", "High", "DA 30 to 70, PA grows over time", "Medium to high", "Medium"],
+          ["Resource page & broken link building", "High", "DA 20 to 60, often strong PA", "Medium", "Low"],
+          ["Local citations & business listings", "Medium (high for local)", "DA 30 to 90, low PA", "Low", "Low"],
+          ["Free guest posts", "Low to medium", "DA 10 to 40", "Medium", "Medium"],
+          ["Forum backlinks", "Low (good for traffic)", "DA 30 to 90, low PA", "Medium", "High if spammy"],
+          ["Q&A sites (Quora, Reddit)", "Low (good for traffic)", "DA 90+, varies by thread", "Medium", "High if spammy"],
+          ["Profile backlinks", "Very low", "DA 40 to 95, PA usually 1 to 10", "Low", "Medium"],
+          ["Blog comment backlinks", "Very low", "Varies, nofollow", "Low", "High if spammy"],
+          ["Paid links / PBNs / link farms", "Negative", "Often inflated DA", "Low", "Very high"],
+        ],
+      },
+      {
+        type: 'p',
+        text: "Notice something in that table? Profile and forum links often sit on very high DA websites, which is why sellers love advertising them. But the page your link sits on has almost no PA, and the link is usually nofollow. That is the clearest example of why a big DA number on its own tells you very little.",
+      },
+      {
+        type: 'h2',
+        text: "1. Guest Posting",
+      },
+      {
+        type: 'p',
+        text: "Guest posting means writing a genuinely useful article for another website in your industry, with a link back to your site in the author bio or naturally inside the content. Done properly, it is still one of the most reliable off-page SEO techniques, because you get a contextual link on a relevant page and you get in front of someone else’s audience.",
+      },
+      {
+        type: 'p',
+        text: "The catch is the word “properly”. Google has warned for years against large scale guest posting campaigns with keyword stuffed anchor text. A site that accepts any article from anyone, as long as you pay, is not a guest post opportunity. It is a link farm with a nicer design.",
+      },
+      {
+        type: 'h3',
+        text: "How to find good guest posting sites",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Search Google for your topic plus phrases like “write for us”, “guest post guidelines”, “contribute” or “submit an article”. For example: digital marketing “write for us”.",
+          "Look at where competitors and people in your industry have already been published. Their author pages often list the sites.",
+          "Aim for sites around DA 30 and above with real organic traffic, but treat relevance as more important than the number.",
+          "Avoid sites whose recent posts jump between casinos, CBD, crypto, fashion and plumbing. That is a sign they sell links to everybody.",
+        ],
+      },
+      {
+        type: 'h3',
+        text: "How to pitch without sounding like spam",
+      },
+      {
+        type: 'p',
+        text: "Editors get dozens of “Dear Sir/Madam, I want to write a high quality guest post for your esteemed website” emails every day, and they delete almost all of them. Use the editor’s name. Mention an article of theirs you actually read. Suggest two or three specific titles that fill a gap on their site, and explain in one line why you are qualified to write them. Short, specific and human wins.",
+      },
+      {
+        type: 'callout',
+        text: "Tip: keep your anchor text natural. Your brand name, your URL or a phrase like “this guide on website costs” looks normal. Twenty guest posts all linking with the exact words “best SEO company in Pakistan” does not.",
+      },
+      {
+        type: 'h2',
+        text: "2. Free Guest Posts",
+      },
+      {
+        type: 'p',
+        text: "Free guest posting is the same idea, minus the payment. Plenty of blogs, community magazines and industry publications welcome contributors simply because they need good content. These are worth chasing, especially when you are starting out and do not have a link building budget. Most free guest post sites sit in the DA 10 to 40 range, which is perfectly fine for a young website.",
+      },
+      {
+        type: 'p',
+        text: "Be careful with lists of “500+ free guest posting sites” that float around. Most of those sites are either dead, flooded with spam or set every link to nofollow automatically. Open platforms like Medium, LinkedIn articles and similar publishing sites are fine for reach and brand building, but treat them as distribution channels rather than ranking boosters. The free guest posts that move rankings are almost always the ones where a real editor reviewed your work.",
+      },
+      {
+        type: 'h2',
+        text: "3. Editorial Links and Digital PR",
+      },
+      {
+        type: 'p',
+        text: "This is the gold standard: a news site, industry publication or popular blog links to you because they want to, not because you asked for a link. You earn these by giving journalists and writers something worth citing, such as original data, a survey, a useful free tool, a strong expert opinion or a genuinely interesting story.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Publish original research. Even a simple survey of 200 local customers can become a story (“62% of Lahore shoppers prefer Cash on Delivery”).",
+          "Respond to journalist requests on platforms such as Qwoted, Featured or Help a B2B Writer, and look out for reporters asking for expert quotes on X and LinkedIn.",
+          "Build a free calculator, template or checklist that people in your industry keep coming back to.",
+          "Share local business milestones like launches, awards and community projects with local news sites and business directories.",
+        ],
+      },
+      {
+        type: 'p',
+        text: "Digital PR takes longer and does not always land, but one link from a DA 80 publication can do more than fifty average guest posts. It also works best alongside your wider marketing. Our guide to [digital marketing strategies for Pakistani businesses](/blog/best-digital-marketing-strategies-for-pakistani-businesses) shows how PR, social media and content fit together.",
+      },
+      {
+        type: 'h2',
+        text: "4. Forum Backlinks",
+      },
+      {
+        type: 'p',
+        text: "Forum backlinks come from taking part in online discussion communities related to your industry, whether that is a niche forum, a Reddit community, a Facebook group or a developer forum. Most forum links are nofollow, so their direct ranking value is small. Their real value is traffic and reputation. A detailed, helpful answer in the right thread can bring visitors for years.",
+      },
+      {
+        type: 'p',
+        text: "The fastest way to get banned is to sign up, drop your link and leave. Moderators spot it immediately. Instead, join a few forums where your customers actually hang out, answer questions for a few weeks without mentioning yourself at all, and only link to your site when a page of yours genuinely answers the question better than a forum reply can.",
+      },
+      {
+        type: 'h2',
+        text: "5. Q&A Site Backlinks (Quora, Reddit and Similar)",
+      },
+      {
+        type: 'p',
+        text: "Q&A platforms work much like forums. The links are usually nofollow, but these pages rank well on Google themselves, and AI search tools increasingly pull answers from community discussions. A well written answer on a popular question can show up in search results and AI summaries, carrying your brand name with it. Write the answer first, and add a link only as a “read more” for people who want the detail.",
+      },
+      {
+        type: 'h2',
+        text: "6. Profile Backlinks",
+      },
+      {
+        type: 'p',
+        text: "Profile backlinks are links you add to your own profile on other websites: social networks, business directories, design communities like Behance and Dribbble, developer platforms like GitHub, review sites, and so on. These domains often have a DA of 80 or more, but your profile page usually has a PA close to 1. They are easy to create, which is exactly why their SEO value is low. Anyone can make them, so Google gives them very little weight.",
+      },
+      {
+        type: 'p',
+        text: "That does not mean you should skip them entirely. A handful of complete, consistent profiles on real platforms your industry uses help Google connect your brand across the web, and they help customers find you. What does not work is buying a “1,000 high DA profile backlinks” package. Those are created automatically on abandoned websites, and at best Google ignores them.",
+      },
+      {
+        type: 'h2',
+        text: "7. Blog Comment Backlinks",
+      },
+      {
+        type: 'p',
+        text: "Blog commenting was a popular link building tactic around 2010. Today, almost every blog platform marks comment links as nofollow or ugc, and spam filters catch most promotional comments before they are even published. As a ranking tactic, it is close to dead.",
+      },
+      {
+        type: 'p',
+        text: "We still recommend commenting on blogs, just for a different reason. Leaving thoughtful comments on posts by people in your industry is a good way to get noticed by the author. That relationship can later turn into a guest post invitation, a collaboration or a mention. Comment like a person, not like a link builder, and never paste “Nice post, check my site”.",
+      },
+      {
+        type: 'h2',
+        text: "8. Local Citations and Business Listings",
+      },
+      {
+        type: 'p',
+        text: "If you serve customers in a specific city, local citations are some of the most useful off-page work you can do. A citation is any online mention of your business name, address and phone number (often called NAP). Start with Google Business Profile, then Bing Places, Apple Business Connect, Facebook, and the reputable directories in your country and industry.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Use exactly the same business name, address and phone number everywhere. “Suite 4, Main Blvd” on one site and “Office No. 4, Main Boulevard” on another confuses search engines.",
+          "Fill every field: categories, opening hours, photos, services and a proper description.",
+          "Ask happy customers for Google reviews and reply to every review, good or bad.",
+          "Quality beats quantity. Twenty relevant listings are better than three hundred random directories.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "9. Resource Page and Broken Link Building",
+      },
+      {
+        type: 'p',
+        text: "Many websites keep “useful resources” pages that link out to helpful guides and tools. If you have a page that genuinely belongs on that list, a polite email suggesting it often works. Broken link building is a smarter version: you find a link on someone’s page that no longer works, create (or already have) content that covers the same topic, and let the site owner know about the broken link along with your replacement. You are fixing a problem for them, which makes them far more likely to say yes.",
+      },
+      {
+        type: 'p',
+        text: "Both tactics depend on having pages worth linking to. Detailed, practical guides like our breakdown of [how much a website costs in Pakistan](/blog/how-much-does-a-website-cost-in-pakistan) are exactly the kind of content other sites are happy to reference.",
+      },
+      {
+        type: 'h2',
+        text: "10. Social Bookmarking, Web 2.0s and Other Old Tactics",
+      },
+      {
+        type: 'p',
+        text: "You will still find SEO packages selling social bookmarking, Web 2.0 blogs, article directories, PDF submissions and image sharing links in bulk. Sharing your content on Pinterest, LinkedIn, Flipboard or SlideShare is perfectly fine if your audience uses those platforms. Creating hundreds of thin accounts purely to drop links is not. These tactics rarely hurt on their own anymore, but they rarely help either, and the time is better spent on one good guest post.",
+      },
+      {
+        type: 'h2',
+        text: "What to Avoid Completely",
+      },
+      {
+        type: 'p',
+        text: "Google’s spam policies are clear about link schemes, and these are the tactics most likely to get a site penalised or wipe out its rankings after an update:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Buying links that pass ranking value without marking them as sponsored.",
+          "Private blog networks (PBNs), which are groups of websites built only to link to each other or to clients. Many of them have artificially pumped up DA.",
+          "Cheap “5,000 backlinks for $5” gigs. These are almost always automated spam.",
+          "Large scale link exchanges (“you link to me, I link to you”) with unrelated sites.",
+          "Hidden links in website footers, themes or widgets distributed across many sites.",
+          "Links placed on hacked websites or “parasite” pages on other people’s domains. If your own site is ever used this way, our guide to [website security essentials](/blog/website-security-essentials-pakistani-businesses) explains how to lock it down.",
+        ],
+      },
+      {
+        type: 'callout',
+        text: "If an SEO provider promises a guaranteed number of DA 50+ backlinks for a very low monthly fee, ask them to show you exactly which sites, along with each site’s traffic. If they will not, that tells you what you need to know.",
+      },
+      {
+        type: 'p',
+        text: "Choosing an SEO partner is a lot like choosing a web developer: ask for real examples, clear reporting and honest timelines. Our [checklist for choosing an agency in Pakistan](/blog/how-to-choose-web-development-agency-in-pakistan) covers the questions worth asking.",
+      },
+      {
+        type: 'h2',
+        text: "Off-Page SEO Beyond Backlinks",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Brand mentions: being named in articles, podcasts and videos builds trust even without a link. You can often turn an unlinked mention into a link with a friendly email.",
+          "Reviews: Google reviews, Trustpilot, Clutch and industry review sites influence both rankings and buying decisions.",
+          "Social signals: social shares are not a direct ranking factor, but active profiles get your content seen by the people who might link to it.",
+          "Podcasts and webinars: guest appearances usually come with a link on the episode page and a lot of brand exposure.",
+          "Partnerships: suppliers, clients and partners you already work with are often happy to list you on their website.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "A Simple 90-Day Off-Page SEO Plan",
+      },
+      {
+        type: 'p',
+        text: "If all of this feels like a lot, here is the order we usually follow for a new client. It is not glamorous, but it is steady and safe.",
+      },
+      {
+        type: 'ol',
+        items: [
+          "Weeks 1 and 2: Audit your existing backlinks in Google Search Console and a tool like Ahrefs, Semrush or Moz. Note your current DA, fix or remove anything obviously toxic, and check what your top three competitors have that you do not.",
+          "Weeks 2 to 4: Set up and complete Google Business Profile and 15 to 25 relevant local and industry listings with consistent NAP details. Create profiles on the platforms your industry genuinely uses.",
+          "Weeks 3 to 8: Publish one or two strong “linkable” pages on your own site, such as a detailed guide, original data or a free tool. Outreach works much better when you have something worth linking to. If your site is slow or outdated, fix that first with a proper [website development](/services/web-development) refresh.",
+          "Weeks 4 to 12: Pitch 5 to 10 relevant sites per week for guest posts. Aim for two or three quality placements a month rather than twenty weak ones.",
+          "Ongoing: Answer questions in two or three communities, respond to journalist requests, and collect reviews from every happy customer.",
+          "Every month: Track referring domains, DA, rankings for your target keywords and, most importantly, enquiries and sales from organic search.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Long Does Off-Page SEO Take to Work?",
+      },
+      {
+        type: 'p',
+        text: "Honestly, longer than most people want. Google needs time to find new links, and it tends to trust steady growth more than sudden spikes. For most small and medium businesses, you start seeing movement after two to four months of consistent work, and the bigger gains arrive between six and twelve months. Your DA will usually climb slowly too, often only a few points in the first year. Competitive keywords in crowded industries can take longer. The good news is that quality links keep working long after you build them, so the effort compounds.",
+      },
+      {
+        type: 'h2',
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: 'h3',
+        text: "How many backlinks do I need to rank?",
+      },
+      {
+        type: 'p',
+        text: "There is no fixed number. Look at the pages currently ranking for your keyword and check how many referring domains they have. That gives you a realistic target. Ten relevant links can beat two hundred weak ones.",
+      },
+      {
+        type: 'h3',
+        text: "What is a good DA for my website?",
+      },
+      {
+        type: 'p',
+        text: "There is no universal “good” score. What matters is how you compare with the websites ranking for your keywords. If your local competitors sit around DA 15 to 25, you do not need DA 60 to beat them. Focus on earning relevant links and the score will follow.",
+      },
+      {
+        type: 'h3',
+        text: "Can I increase DA quickly?",
+      },
+      {
+        type: 'p',
+        text: "Anyone selling a fast DA increase is usually doing it with spam links that inflate the score without improving rankings. Since Google does not use DA, a pumped up number does nothing for your traffic. Real increases come from real links, and they take months.",
+      },
+      {
+        type: 'h3',
+        text: "Are paid guest posts against Google’s rules?",
+      },
+      {
+        type: 'p',
+        text: "Paying for a link that passes ranking value without a rel=“sponsored” or nofollow attribute goes against Google’s guidelines. Sponsored content that is properly labelled is fine, and it can still bring traffic and brand exposure.",
+      },
+      {
+        type: 'h3',
+        text: "Should I use the Disavow tool?",
+      },
+      {
+        type: 'p',
+        text: "Only if you have a manual action in Search Console or you know a large number of spammy links were built to your site in the past. Google already ignores most random junk links, so most websites never need to disavow anything.",
+      },
+      {
+        type: 'h3',
+        text: "Is off-page SEO more important than on-page SEO?",
+      },
+      {
+        type: 'p',
+        text: "They work together. Great links pointing to a slow, thin page will not hold rankings for long, and a perfect page with no links struggles in competitive markets. Get your [on-page SEO basics](/blog/how-to-rank-website-on-google-in-pakistan) right first, then build authority on top.",
+      },
+      {
+        type: 'h2',
+        text: "Want Us to Handle Your Off-Page SEO?",
+      },
+      {
+        type: 'p',
+        text: "Good link building is mostly patience, research and relationships, and it is hard to fit around running a business. Our [SEO services](/services/seo) team builds white hat backlinks through real outreach, guest posting on relevant sites, local citations and digital PR for businesses in Pakistan and the UK. No PBNs, no bulk spam, and a clear report of every link we build with its DA, PA and traffic. If you want SEO as part of a bigger plan, see our [digital marketing services](/services/digital-marketing) too.",
+      },
+      {
+        type: 'p',
+        text: "[Book a free consultation](/book-demo) and we will audit your current backlink profile and show you where the quickest wins are.",
+      },
+    ],
+  },
+
+  {
     id: 1,
     slug: 'how-to-build-shopify-store-in-pakistan-2025',
     title: 'How to Build a Shopify Store in Pakistan (2025 Guide)',
@@ -28,7 +447,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "The biggest mistakes on new stores happen before a single product is uploaded. Spend an hour answering a few questions first, and the rest of the build becomes much faster.",
+        text: "The biggest mistakes on new stores happen before a single product is uploaded. Spend an hour answering a few questions first, and the rest of the build becomes much faster. Still deciding on a platform? Our [WordPress vs Shopify comparison](/blog/wordpress-vs-shopify-which-is-better-for-pakistan) will help.",
       },
       {
         type: 'ul',
@@ -70,7 +489,7 @@ export const blogs = [
           "Prioritise mobile design. Most Pakistani shoppers browse on their phones, often on mobile data, so test every page on a phone before you launch.",
           "Keep the homepage focused: a clear banner, your best-selling collections, trust signals (Cash on Delivery, delivery time, easy returns) and a few customer reviews.",
           "Use your brand colours and fonts consistently, but avoid heavy animations and huge images that slow the store down.",
-          "Only buy themes from the official Shopify Theme Store. Pirated or 'free premium' themes from random websites can contain malicious code and will not receive updates.",
+          "Only buy themes from the official Shopify Theme Store. Pirated or 'free premium' themes from random websites can contain malicious code and will not receive updates. Our [website security guide](/blog/website-security-essentials-pakistani-businesses) explains why.",
         ],
       },
       {
@@ -227,7 +646,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Every store's budget looks different, depending on your products, the plan you choose, the apps you rely on and how aggressively you market. Rather than spending heavily on day one, start lean, measure what works and reinvest profits into the areas that bring real sales.",
+        text: "Every store's budget looks different, depending on your products, the plan you choose, the apps you rely on and how aggressively you market. Rather than spending heavily on day one, start lean, measure what works and reinvest profits into the areas that bring real sales. For a wider view of pricing, see [how much a website costs in Pakistan](/blog/how-much-does-a-website-cost-in-pakistan).",
       },
       {
         type: 'ul',
@@ -264,7 +683,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "If you would rather focus on your products while experts handle the setup, Selections Technologies builds Shopify stores for Pakistani and international brands — including theme customisation, payment and courier integration, product uploads and launch marketing. Book a free consultation and we will help you plan a store that is ready to sell from day one.",
+        text: "If you would rather focus on your products while experts handle the setup, Selections Technologies [builds Shopify stores](/services/shopify-development) for Pakistani and international brands — including theme customisation, payment and courier integration, product uploads and launch marketing. [Book a free consultation](/book-demo) and we will help you plan a store that is ready to sell from day one.",
       },
     ],
   },
@@ -310,7 +729,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Shopify is a hosted e-commerce platform. You pay a monthly subscription, and Shopify provides the hosting, security, checkout and core store features in one package. You choose a theme, add products and install apps from the Shopify App Store for extra functionality. You never touch a server, and updates happen automatically.",
+        text: "Shopify is a hosted e-commerce platform. You pay a monthly subscription, and Shopify provides the hosting, security, checkout and core store features in one package. You choose a theme, add products and install apps from the Shopify App Store for extra functionality. You never touch a server, and updates happen automatically. Our step by step guide shows [how to build a Shopify store in Pakistan](/blog/how-to-build-shopify-store-in-pakistan-2025).",
       },
       {
         type: 'p',
@@ -322,7 +741,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Cost is often the deciding factor, so it helps to look at both the one-time setup and the ongoing monthly spend. The ranges below are typical for professionally built sites; simpler or more complex projects can fall outside them.",
+        text: "Cost is often the deciding factor, so it helps to look at both the one-time setup and the ongoing monthly spend. The ranges below are typical for professionally built sites; simpler or more complex projects can fall outside them. For full pricing across every type of site, read [how much a website costs in Pakistan](/blog/how-much-does-a-website-cost-in-pakistan).",
       },
       {
         type: 'table',
@@ -389,7 +808,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Both platforms can rank well on Google; the quality of your content and your site's speed matter more than the platform itself. WordPress gives you more control over technical SEO through plugins such as Yoast or Rank Math, including URL structures, schema markup and detailed meta settings. It is also the stronger choice if content marketing — regular blog posts and guides — is a big part of your strategy.",
+        text: "Both platforms can rank well on Google; the quality of your content and your site's speed matter more than the platform itself. WordPress gives you more control over technical SEO through plugins such as Yoast or Rank Math, including URL structures, schema markup and detailed meta settings. It is also the stronger choice if content marketing — regular blog posts and guides — is a big part of your strategy. Whichever you choose, our [guide to ranking on Google in Pakistan](/blog/how-to-rank-website-on-google-in-pakistan) covers the SEO basics.",
       },
       {
         type: 'p',
@@ -401,7 +820,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Shopify takes care of security, server updates and PCI compliance for payments. Your main responsibilities are strong passwords, two-factor authentication and choosing trustworthy apps.",
+        text: "Shopify takes care of security, server updates and PCI compliance for payments. Your main responsibilities are strong passwords, two-factor authentication and choosing trustworthy apps. See our [website security essentials](/blog/website-security-essentials-pakistani-businesses) for the full checklist.",
       },
       {
         type: 'p',
@@ -479,7 +898,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Selections Technologies builds both WordPress websites and Shopify stores for businesses in Pakistan and the UK, so our advice is based on what suits your business rather than which platform we prefer. Book a free consultation and we will help you make the right choice before you spend a rupee on development.",
+        text: "Selections Technologies builds both [WordPress websites](/services/wordpress-development) and [Shopify stores](/services/shopify-development) for businesses in Pakistan and the UK, so our advice is based on what suits your business rather than which platform we prefer. [Book a free consultation](/book-demo) and we will help you make the right choice before you spend a rupee on development.",
       },
     ],
   },
@@ -529,7 +948,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Suitable for new businesses, freelancers, events or single-product campaigns that need a professional online presence quickly. Usually includes a homepage or a few pages, a contact form, WhatsApp button and mobile-friendly design.",
+        text: "Suitable for new businesses, freelancers, events or single-product campaigns that need a professional online presence quickly. Usually includes a homepage or a few pages, a contact form, WhatsApp button and mobile-friendly design. Not sure which platform fits? Compare [WordPress vs Shopify for Pakistan](/blog/wordpress-vs-shopify-which-is-better-for-pakistan).",
       },
       {
         type: 'table',
@@ -634,7 +1053,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "A website is not a one-time purchase. Budget for these recurring costs so there are no surprises:",
+        text: "A website is not a one-time purchase. Budget for these recurring costs so there are no surprises (and do not skip security; our [website security guide](/blog/website-security-essentials-pakistani-businesses) explains why):",
       },
       {
         type: 'ul',
@@ -753,6 +1172,7 @@ export const blogs = [
           "How many revisions are included, and how long will the project take?",
           "Who will own the domain, hosting, design and code?",
           "What support do you provide after launch?",
+          "For the full list of questions, see our [checklist for choosing a web development agency](/blog/how-to-choose-web-development-agency-in-pakistan).",
         ],
       },
       {
@@ -777,7 +1197,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Whether you need a simple business website, a WordPress site you can manage yourself, an online store or a custom web application, book a free consultation. We will understand your goals, recommend the right approach for your budget and give you a transparent quote — no pressure, no hidden costs.",
+        text: "Whether you need a simple [business website](/services/web-development), a [WordPress site](/services/wordpress-development) you can manage yourself, an [online store](/services/ecommerce-solutions) or a [custom web application](/services/custom-software-development), [book a free consultation](/book-demo). We will understand your goals, recommend the right approach for your budget and give you a transparent quote — no pressure, no hidden costs.",
       },
     ],
   },
@@ -811,7 +1231,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Before spending on ads, make sure the basics are in place. Marketing sends people somewhere; if that destination is weak, you pay for traffic that never converts.",
+        text: "Before spending on ads, make sure the basics are in place. Marketing sends people somewhere; if that destination is weak, you pay for traffic that never converts. If your website needs work first, see [how much a website costs in Pakistan](/blog/how-much-does-a-website-cost-in-pakistan).",
       },
       {
         type: 'ul',
@@ -855,7 +1275,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "For many Pakistani customers, WhatsApp is where trust is built. People want to ask about sizes, availability, delivery and payment before committing, and a quick, friendly reply often decides the sale.",
+        text: "For many Pakistani customers, WhatsApp is where trust is built. People want to ask about sizes, availability, delivery and payment before committing, and a quick, friendly reply often decides the sale. Many businesses now use [AI chatbots on WhatsApp](/blog/ai-chatbots-for-business-pakistan-2025) to reply instantly, day and night.",
       },
       {
         type: 'ul',
@@ -895,7 +1315,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Search engine optimisation takes longer to show results than ads, but the traffic it brings keeps coming without paying for every click. For businesses planning to be around for years, SEO is one of the best investments available.",
+        text: "Search engine optimisation takes longer to show results than ads, but the traffic it brings keeps coming without paying for every click. For businesses planning to be around for years, SEO is one of the best investments available. Our [guide to ranking on Google in Pakistan](/blog/how-to-rank-website-on-google-in-pakistan) covers the on-page side, and our [off-page SEO guide](/blog/off-page-seo-backlinks-guide-pakistan) explains how to build backlinks safely.",
       },
       {
         type: 'ul',
@@ -1058,7 +1478,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "If you would like a marketing plan built around your goals and budget, Selections Technologies offers digital marketing, SEO and Meta & Google Ads management focused on leads and revenue. Book a free consultation and we will review your current presence and recommend the channels most likely to grow your business.",
+        text: "If you would like a marketing plan built around your goals and budget, Selections Technologies offers [digital marketing](/services/digital-marketing), [SEO](/services/seo) and [Meta & Google Ads](/services/meta-google-ads) management focused on leads and revenue. [Book a free consultation](/book-demo) and we will review your current presence and recommend the channels most likely to grow your business.",
       },
     ],
   },
@@ -1157,7 +1577,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Technical SEO makes sure Google can find, crawl and understand your website. It is invisible to visitors but essential.",
+        text: "Technical SEO makes sure Google can find, crawl and understand your website. It is invisible to visitors but essential. HTTPS and a clean, malware free site are part of this too; our [website security guide](/blog/website-security-essentials-pakistani-businesses) covers the basics.",
       },
       {
         type: 'ul',
@@ -1177,7 +1597,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Many Pakistani users browse on mobile data, sometimes on slower connections and mid-range phones. A website that takes several seconds to load loses visitors before they see anything, and speed is part of how Google measures page experience.",
+        text: "Many Pakistani users browse on mobile data, sometimes on slower connections and mid-range phones. A website that takes several seconds to load loses visitors before they see anything, and speed is part of how Google measures page experience. If your current site is slow and hard to fix, a [professionally built website](/services/web-development) is often the faster route.",
       },
       {
         type: 'ul',
@@ -1248,7 +1668,7 @@ export const blogs = [
       },
       {
         type: 'callout',
-        text: "Avoid buying cheap backlink packages. Spammy links can trigger a Google penalty that is far harder to fix than it was to create.",
+        text: "Avoid buying cheap backlink packages. Spammy links can trigger a Google penalty that is far harder to fix than it was to create. For every link type explained in detail, read our [off-page SEO and backlinks guide](/blog/off-page-seo-backlinks-guide-pakistan).",
       },
       {
         type: 'h2',
@@ -1288,6 +1708,7 @@ export const blogs = [
           "Add product schema so Google can show prices, availability and ratings in results.",
           "Handle out-of-stock products sensibly: keep popular pages live with alternatives instead of deleting them.",
           "Encourage customer reviews, which add fresh, original content to product pages.",
+          "Building on Shopify? Our [Shopify store guide for Pakistan](/blog/how-to-build-shopify-store-in-pakistan-2025) covers product pages and setup in detail.",
         ],
       },
       {
@@ -1320,7 +1741,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "SEO rewards businesses that are consistent and genuinely helpful. If you would like experts to handle the technical work, keyword research, content and local SEO while you focus on running your business, Selections Technologies offers SEO services for businesses in Pakistan and the UK. Book a free consultation and we will review your website and show you the opportunities that can bring you more customers from Google.",
+        text: "SEO rewards businesses that are consistent and genuinely helpful. If you would like experts to handle the technical work, keyword research, content and local SEO while you focus on running your business, Selections Technologies offers [SEO services](/services/seo) for businesses in Pakistan and the UK. [Book a free consultation](/book-demo) and we will review your website and show you the opportunities that can bring you more customers from Google.",
       },
     ],
   },
@@ -1354,7 +1775,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Not every business needs a mobile app on day one. Apps make the most sense when customers interact with you frequently — ordering food or groceries, booking appointments, tracking deliveries, managing an account, learning, or using a service daily. If customers visit you only occasionally, a fast mobile-friendly website or a progressive web app may deliver most of the benefit at a lower cost. Be clear about what the app will do better than your website before you invest.",
+        text: "Not every business needs a mobile app on day one. Apps make the most sense when customers interact with you frequently — ordering food or groceries, booking appointments, tracking deliveries, managing an account, learning, or using a service daily. If customers visit you only occasionally, a fast mobile-friendly website or a progressive web app may deliver most of the benefit at a lower cost. Be clear about what the app will do better than your website before you invest. If a website is enough for now, see [how much a website costs in Pakistan](/blog/how-much-does-a-website-cost-in-pakistan).",
       },
       {
         type: 'h2',
@@ -1570,7 +1991,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "The clearer your brief, the more accurate your quote and the smoother your project. You do not need technical knowledge to write a useful brief; you need clarity about your business and your users.",
+        text: "The clearer your brief, the more accurate your quote and the smoother your project. You do not need technical knowledge to write a useful brief; you need clarity about your business and your users. Choosing the team matters just as much; our [checklist for choosing a development agency](/blog/how-to-choose-web-development-agency-in-pakistan) applies to app projects too.",
       },
       {
         type: 'ul',
@@ -1597,7 +2018,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Selections Technologies designs and builds cross-platform and native mobile apps, complete with backends and admin panels, for businesses in Pakistan and the UK. Book a free consultation to discuss your idea — we will help you define the right features, choose the best approach and give you a clear quote and timeline.",
+        text: "Selections Technologies designs and builds cross-platform and native [mobile apps](/services/mobile-app-development), complete with backends and admin panels, for businesses in Pakistan and the UK. [Book a free consultation](/book-demo) to discuss your idea — we will help you define the right features, choose the best approach and give you a clear quote and timeline.",
       },
     ],
   },
@@ -1670,7 +2091,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Industries seeing strong results include e-commerce and retail, real estate, education and admissions, healthcare clinics, travel agencies, restaurants and food delivery, and service businesses that receive many similar enquiries every day.",
+        text: "Industries seeing strong results include e-commerce and retail, real estate, education and admissions, healthcare clinics, travel agencies, restaurants and food delivery, and service businesses that receive many similar enquiries every day. A chatbot works best as part of a wider plan; see our [digital marketing strategies for Pakistani businesses](/blog/best-digital-marketing-strategies-for-pakistani-businesses).",
       },
       {
         type: 'h2',
@@ -1820,6 +2241,7 @@ export const blogs = [
           "Understand the ongoing costs — AI usage, WhatsApp charges, hosting and updates.",
           "Ask who owns the chatbot setup, conversation data and connected accounts.",
           "Make sure you can update information such as prices and policies easily, or that updates are included in support.",
+          "Many of the same questions apply to any tech partner. Our [agency checklist](/blog/how-to-choose-web-development-agency-in-pakistan) has more.",
         ],
       },
       {
@@ -1865,7 +2287,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Selections Technologies builds AI chatbots and automation for businesses in Pakistan and the UK — trained on your information, connected to your website, WhatsApp, CRM and calendar, and designed to hand over to your team when needed. Book a free demo and we will show you what a chatbot could handle for your business.",
+        text: "Selections Technologies builds [AI chatbots](/services/ai-chatbot-development) and [automation](/services/ai-automation) for businesses in Pakistan and the UK — trained on your information, connected to your website, WhatsApp, CRM and calendar, and designed to hand over to your team when needed. [Book a free demo](/book-demo) and we will show you what a chatbot could handle for your business.",
       },
     ],
   },
@@ -1967,7 +2389,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Security problems are expensive to fix after the fact. A professional agency should be able to explain how they protect your website without hesitation.",
+        text: "Security problems are expensive to fix after the fact. A professional agency should be able to explain how they protect your website without hesitation. Our [website security essentials](/blog/website-security-essentials-pakistani-businesses) guide lists what to look for.",
       },
       {
         type: 'ul',
@@ -1986,7 +2408,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "It is natural to compare prices, but the lowest quote is rarely the cheapest outcome. A low price can mean template-based work, missing features, no testing, no SEO setup or no support after launch. On the other hand, the highest quote is not automatically the best either. Compare what each agency delivers for the money, and ask them to explain any big differences between quotes.",
+        text: "It is natural to compare prices, but the lowest quote is rarely the cheapest outcome. A low price can mean template-based work, missing features, no testing, no SEO setup or no support after launch. On the other hand, the highest quote is not automatically the best either. Compare what each agency delivers for the money, and ask them to explain any big differences between quotes. Our [website cost guide for Pakistan](/blog/how-much-does-a-website-cost-in-pakistan) shows what fair prices look like.",
       },
       {
         type: 'h2',
@@ -1994,7 +2416,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "A beautiful website that nobody finds, or that loads slowly on a phone, will not help your business. Ask how the agency handles:",
+        text: "A beautiful website that nobody finds, or that loads slowly on a phone, will not help your business (our [SEO guide](/blog/how-to-rank-website-on-google-in-pakistan) explains why). Ask how the agency handles:",
       },
       {
         type: 'ul',
@@ -2131,11 +2553,11 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "At Selections Technologies, we put scope, timelines and costs in writing before any work starts, use licensed software only, and make sure you own your domain, content and website. Our team designs, builds and supports websites, online stores and custom applications for businesses in Pakistan and the UK, and you can speak directly with our leadership team throughout your project.",
+        text: "At Selections Technologies, we put scope, timelines and costs in writing before any work starts, use licensed software only, and make sure you own your domain, content and website. Our team designs, builds and supports [websites](/services/web-development), [online stores](/services/ecommerce-solutions) and [custom applications](/services/custom-software-development) for businesses in Pakistan and the UK, and you can speak directly with our leadership team throughout your project.",
       },
       {
         type: 'p',
-        text: "Book a free consultation to discuss your project. We will answer every question on this checklist openly — and if we are not the right fit, we will tell you.",
+        text: "[Book a free consultation](/book-demo) to discuss your project. We will answer every question on this checklist openly — and if we are not the right fit, we will tell you.",
       },
     ],
   },
@@ -2212,7 +2634,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "'Nulled' themes and plugins are pirated copies of premium software, often shared for free or sold cheaply. They are one of the most common causes of hacked WordPress websites in Pakistan. Many contain hidden malicious code that gives attackers access to your site, and none of them receive security updates.",
+        text: "'Nulled' themes and plugins are pirated copies of premium software, often shared for free or sold cheaply. They are one of the most common causes of hacked WordPress websites in Pakistan. Many contain hidden malicious code that gives attackers access to your site, and none of them receive security updates. This is one reason some businesses prefer a hosted platform; see [WordPress vs Shopify](/blog/wordpress-vs-shopify-which-is-better-for-pakistan).",
       },
       {
         type: 'callout',
@@ -2303,7 +2725,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Very cheap shared hosting can put your website on crowded servers with weak isolation between accounts. Reputable hosting providers offer firewalls, malware scanning, automatic backups, up-to-date server software and responsive support. For online stores and busy websites, the extra cost of better hosting is easily justified.",
+        text: "Very cheap shared hosting can put your website on crowded servers with weak isolation between accounts. Reputable hosting providers offer firewalls, malware scanning, automatic backups, up-to-date server software and responsive support. For online stores and busy websites, the extra cost of better hosting is easily justified. Our [website cost guide](/blog/how-much-does-a-website-cost-in-pakistan) includes typical hosting prices.",
       },
       {
         type: 'h2',
@@ -2327,7 +2749,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "E-commerce websites handle customer details and orders every day, so they deserve extra attention.",
+        text: "E-commerce websites handle customer details and orders every day, so they deserve extra attention. If you are setting up a new store, our [Shopify store guide](/blog/how-to-build-shopify-store-in-pakistan-2025) covers secure payment setup.",
       },
       {
         type: 'ul',
@@ -2403,7 +2825,7 @@ export const blogs = [
       },
       {
         type: 'p',
-        text: "Website security is not a one-time setup; it is ongoing care. If you would rather focus on your business, Selections Technologies offers website maintenance and care plans that cover updates, backups, security monitoring and fast support. We also build new websites with security in mind from day one and help businesses recover and harden hacked sites. Book a free consultation and we will review your website's security and recommend the steps that matter most.",
+        text: "Website security is not a one-time setup; it is ongoing care. If you would rather focus on your business, Selections Technologies offers [website maintenance and care plans](/services/web-development) that cover updates, backups, security monitoring and fast support. We also build new websites with security in mind from day one and help businesses recover and harden hacked sites. [Book a free consultation](/book-demo) and we will review your website's security and recommend the steps that matter most.",
       },
     ],
   },

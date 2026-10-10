@@ -30,10 +30,23 @@ function PostIcon({ name }) {
 
 const slugify = (s) => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 
+// Turns [label](/path) in blog text into links: internal paths use the router, anything else opens in a new tab
+const linkClass = 'font-semibold text-brand-blue underline decoration-brand-blue/30 underline-offset-2 hover:decoration-brand-blue transition-colors'
+function RichText({ text }) {
+  return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+    if (!match) return part
+    const [, label, href] = match
+    return href.startsWith('/')
+      ? <Link key={i} to={href} className={linkClass}>{label}</Link>
+      : <a key={i} href={href} target="_blank" rel="noopener noreferrer" className={linkClass}>{label}</a>
+  })
+}
+
 function ContentBlock({ block }) {
   switch (block.type) {
     case 'p':
-      return <p className="text-slate-600 leading-relaxed text-base sm:text-[17px] mb-5">{block.text}</p>
+      return <p className="text-slate-600 leading-relaxed text-base sm:text-[17px] mb-5"><RichText text={block.text} /></p>
     case 'h2':
       return (
         <h2 id={slugify(block.text)} className="scroll-mt-28 text-2xl sm:text-[28px] font-extrabold text-navy mt-12 mb-4 leading-tight">
@@ -48,7 +61,7 @@ function ContentBlock({ block }) {
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-3 text-slate-600 text-base leading-relaxed">
               <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-brand-blue shrink-0" />
-              {item}
+              <span><RichText text={item} /></span>
             </li>
           ))}
         </ul>
@@ -59,7 +72,7 @@ function ContentBlock({ block }) {
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-3 text-slate-600 text-base leading-relaxed">
               <span className="shrink-0 w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue text-xs font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
-              {item}
+              <span><RichText text={item} /></span>
             </li>
           ))}
         </ol>
@@ -68,7 +81,7 @@ function ContentBlock({ block }) {
       return (
         <div className="my-6 p-5 rounded-2xl bg-brand-blue/5 border border-brand-blue/20 flex items-start gap-3">
           <span className="text-brand-blue text-lg mt-0.5 shrink-0">💡</span>
-          <p className="text-brand-blue text-[15px] font-medium leading-relaxed">{block.text}</p>
+          <p className="text-brand-blue text-[15px] font-medium leading-relaxed"><RichText text={block.text} /></p>
         </div>
       )
     case 'table':
